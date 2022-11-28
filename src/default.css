@@ -1,0 +1,219 @@
+:root {
+  --background: #2d2d2d;
+  --text: #f8f8f2;
+  --black: #222222;
+  --primary: #548cd4;
+  --success: #04AA6D;
+  --font: "Segoe UI";
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  margin: 0;
+  min-height: 100vh;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font);
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+img {
+  vertical-align: middle;
+}
+
+footer {
+  list-style-type: none;
+  font-size: 18px;
+  color: var(--text);
+  background-color: var(--black);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+  width: 100%;
+
+  z-index: 1;
+}
+
+
+.footer-classic {
+  color: #4e5155;
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+/* https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--text); 
+}
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* https://github.com/DevVali/Boostyle */
+button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 4px;
+  background-color: transparent;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+button:hover {
+  color: var(--text);
+}
+
+select {
+  display: inline-block;
+  padding: 1px 4px;
+  background-color: var(--black);
+  color: var(--text);
+  border: 1.8px solid var(--background);
+  text-decoration: none;
+}
+
+.button-success {
+  color: var(--success);
+  border: 1.8px solid var(--success);
+}
+
+.button-success:hover {
+  background-color: var(--success);
+}
+
+.button-primary {
+  color: var(--primary);
+  border: 1.8px solid var(--primary);
+}
+
+.button-primary:hover {
+  background-color: var(--primary);
+}
+
+.toolbar {
+  list-style-type: none;
+  font-size: 15px;
+  color: var(--text);
+  background-color: var(--black);
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.toolbar-item {
+  float: left;
+  color: var(--text);
+  overflow: hidden;
+  padding: 5px 5px;
+  text-decoration: none;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.preview {
+  float: right;
+  width: 45%;
+  margin: auto;
+  height: 630px;
+
+  border: none;
+  outline: none;
+}
+
+/* custom prismjs.com */
+pre[class*=language-] {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: var(--background) !important;
+
+  line-height: normal !important;
+}
+pre {
+  cursor: text !important;
+  float: left;
+  width: 45%;
+}
+pre, #editor {
+	direction: ltr;
+	text-align: left;
+  font-size: 15px;
+}
+
+.popup-screen {
+  z-index: 999999;
+  position: fixed;
+  background: var(--background);
+  backdrop-filter: blur(10px);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  transition: 0.5 ease;
+  transition-property: visibility;
+}
+
+.popup-screen.active {
+  visibility: visible;
+}
+
+.popup-box {
+  position: relative;
+  background: var(--text);
+  color: var(--black);
+  backdrop-filter: blur(10px);
+  max-width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+  padding: 50px 40px;
+  border-radius: 20px;
+  box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+  transform: scale(1);
+  transition: 0.5s ease;
+  transition-property: transform;
+}
+
+.popup-screen.active .popup-box {
+  transform: scale(1);
+}
+
+.popup-close {
+  position: absolute;
+  font-size: 1em;
+  top: 0;
+  right: 0;
+  margin: 15px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.3s ease;
+  transition-property: opacity;
+}
+
+.popup-close:hover {
+  opacity: 1;
+}

@@ -1,0 +1,6 @@
+run = "php -S 0.0.0.0:8000 -t . -c ."
+
+entrypoint = "index.php"
+[nix]
+channel = "unstable"
+
