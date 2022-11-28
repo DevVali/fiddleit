@@ -1,7 +1,7 @@
 <?php
 session_start();
 $lang;
-require "/home/runner/fiddleit/function.main.php";
+require "/home/runner/fiddleit/function/main.php";
 require "/home/runner/fiddleit/langs.php";
 
 if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
@@ -11,12 +11,12 @@ if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
   setcookie("lang", $lang, time() + (86400 * 30), "/");
 }
 
-require "/home/runner/fiddleit/function.error.php";
+require "/home/runner/fiddleit/function/error.php";
 require "/home/runner/fiddleit/lang/{$lang}.php";
 
 $title = $text["credits"];
-require "/home/runner/fiddleit/require.header.php";
-require "/home/runner/fiddleit/require.toolbar.php";
+require "/home/runner/fiddleit/require/header.php";
+require "/home/runner/fiddleit/require/toolbar.php";
 ?>
 
 <h1><?php echo $text["credits"] ?></h1>
@@ -27,4 +27,4 @@ require "/home/runner/fiddleit/require.toolbar.php";
   <li>To <a href="https://github.com/tenmajkl">Majkel</a> for contributing to Backend of fiddleit</li>
 </ul>
 
-<?php require "/home/runner/fiddleit/require.footer.php"; ?>
+<?php require "/home/runner/fiddleit/require/footer.php"; ?>

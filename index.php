@@ -5,8 +5,8 @@ $theme;
 $code;
 $default = "<?php\necho phpversion();";
 
-require "/home/runner/fiddleit/function.additionals.php";
-require "/home/runner/fiddleit/function.main.php";
+require "/home/runner/fiddleit/function/additionals.php";
+require "/home/runner/fiddleit/function/main.php";
 require "/home/runner/fiddleit/langs.php";
 require "/home/runner/fiddleit/themes.php";
 
@@ -43,11 +43,11 @@ if(isset($_SESSION["run"])){
   $code = $default;
 }
 
-require "/home/runner/fiddleit/function.error.php";
+require "/home/runner/fiddleit/function/error.php";
 require "/home/runner/fiddleit/lang/{$lang}.php";
 
 $title = $text["title"];
-require "/home/runner/fiddleit/require.header.php";
+require "/home/runner/fiddleit/require/header.php";
 ?>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo $theme ?>.min.css">
 
@@ -87,4 +87,4 @@ require "/home/runner/fiddleit/require.header.php";
 <iframe src="/run.php" title="Code preview" class="preview"></iframe>
 
 <script src="/src/app.js"></script>
-<?php require "/home/runner/fiddleit/require.footer.php"; ?>
+<?php require "/home/runner/fiddleit/require/footer.php"; ?>
