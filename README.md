@@ -43,6 +43,7 @@ If you want to contribute to this project you can [get in touch](https://discord
 - [Privacy policies](https://fiddleit.devvali.repl.co/main/privacy.php)
 - [Contributors](https://fiddleit.devvali.repl.co/main/credits.php)
 - [Buy Me a Coffee](https://www.buymeacoffee.com/fiddleit)
+- [Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
 
 ## Copyright
 
