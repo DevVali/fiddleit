@@ -10,25 +10,25 @@ require "/home/runner/fiddleit/function/main.php";
 require "/home/runner/fiddleit/langs.php";
 require "/home/runner/fiddleit/themes.php";
 
-if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
-  $lang = $_COOKIE["lang"];
+if(!empty(to_string($_COOKIE["lang"])) && is_option(to_string($_COOKIE["lang"]), $langs)){
+  $lang = to_string($_COOKIE["lang"]);
 }else{
   $lang = "en";
   setcookie("lang", $lang, time() + (86400 * 30), "/");
 }
-if(!empty($_GET["lang"]) && is_option($_GET["lang"], $langs)){
-  $lang = $_GET["lang"];
+if(!empty(to_string($_GET["lang"])) && is_option(to_string($_GET["lang"]), $langs)){
+  $lang = to_string($_GET["lang"]);
   setcookie("lang", $lang, time() + (86400 * 30), "/");
 }
 
-if(!empty($_COOKIE["theme"]) && is_option($_COOKIE["theme"], $themes)){
-  $theme = $_COOKIE["theme"];
+if(!empty(to_string($_GET["lang"])) && is_option(to_string($_COOKIE["lang"]), $themes)){
+  $theme = to_string($_COOKIE["theme"]);
 }else{
   $theme = "twilight";
   setcookie("theme", $theme, time() + (86400 * 30), "/");
 }
-if(!empty($_GET["theme"]) && is_option($_GET["theme"], $themes)){
-  $theme = $_GET["theme"];
+if(!empty(to_string($_GET["lang"])) && is_option(to_string($_GET["lang"]), $themes)){
+  $theme = to_string($_GET["theme"]);
   setcookie("theme", $theme, time() + (86400 * 30), "/");
 }
 
@@ -49,7 +49,7 @@ require "/home/runner/fiddleit/lang/{$lang}.php";
 $title = $text["title"];
 require "/home/runner/fiddleit/require/header.php";
 ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo $theme ?>.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo to_string($theme) ?>.min.css">
 
 <ul class="toolbar">
   <li class="toolbar-item"><a class="toolbar-item" href="/index.php" style="font-size:18px">&nbsp;&nbsp;&nbsp;fiddleit</a></li>

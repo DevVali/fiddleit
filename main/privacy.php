@@ -4,8 +4,8 @@ $lang;
 require "/home/runner/fiddleit/function/main.php";
 require "/home/runner/fiddleit/langs.php";
 
-if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
-  $lang = $_COOKIE["lang"];
+if(!empty(to_string($_COOKIE["lang"])) && is_option(to_string($_COOKIE["lang"]), $langs)){
+  $lang = to_string($_COOKIE["lang"]);
 }else{
   $lang = "en";
   setcookie("lang", $lang, time() + (86400 * 30), "/");
