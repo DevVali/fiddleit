@@ -10,26 +10,26 @@ require "/home/runner/fiddleit/function/main.php";
 require "/home/runner/fiddleit/langs.php";
 require "/home/runner/fiddleit/themes.php";
 
-if(!empty(to_string($_COOKIE["lang"])) && is_option(to_string($_COOKIE["lang"]), $langs)){
+if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
   $lang = to_string($_COOKIE["lang"]);
 }else{
   $lang = "en";
-  setcookie("lang", $lang, time() + (86400 * 30), "/");
+  setcookie("lang", $lang, time() + (86400 * 30), "/", 1, 1);
 }
-if(!empty(to_string($_GET["lang"])) && is_option(to_string($_GET["lang"]), $langs)){
+if(!empty($_GET["lang"]) && is_option($_GET["lang"], $langs)){
   $lang = to_string($_GET["lang"]);
-  setcookie("lang", $lang, time() + (86400 * 30), "/");
+  setcookie("lang", $lang, time() + (86400 * 30), "/", 1, 1);
 }
 
-if(!empty(to_string($_GET["lang"])) && is_option(to_string($_COOKIE["lang"]), $themes)){
+if(!empty($_COOKIE["theme"]) && is_option($_COOKIE["theme"], $themes)){
   $theme = to_string($_COOKIE["theme"]);
 }else{
   $theme = "twilight";
-  setcookie("theme", $theme, time() + (86400 * 30), "/");
+  setcookie("theme", $theme, time() + (86400 * 30), "/", 1, 1);
 }
-if(!empty(to_string($_GET["lang"])) && is_option(to_string($_GET["lang"]), $themes)){
+if(!empty($_GET["theme"]) && is_option($_GET["theme"], $themes)){
   $theme = to_string($_GET["theme"]);
-  setcookie("theme", $theme, time() + (86400 * 30), "/");
+  setcookie("theme", $theme, time() + (86400 * 30), "/", 1, 1);
 }
 
 if(isset($_POST["code"])){
