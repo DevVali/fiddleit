@@ -22,7 +22,7 @@ You can even switch between themes or use fiddleit in your own language!
 Fiddleit wouldn't be available in other languages without help of our translators, and, what is crazy, that you can become one! You don't even need to have coding knowledge, because this is super easy. How to translate fiddleit to other languages:
 1. Fork this repo
 2. Move to the forked repo and find: /lang/en.php
-3. Copy RAW content of the file above, move back to the folder /lang/ and create a new file. Name the file like the following: `lang_code.php`
+3. Copy RAW content of the file above, move back to the folder /lang/ and create a new file. Name the file like following: `lang_code.php`
 4. Paste the content of the file /lang/en.php to the file you created and now it's time to translate. [Follow these steps for translating](https://github.com/DevVali/fiddleit/blob/886347623583f4a9a324991a4524aef5b1599ff5/lang/README.md).
 5. Once you're finished with the translation, please submit a pull request. One of our contributors will review your translation.
 
