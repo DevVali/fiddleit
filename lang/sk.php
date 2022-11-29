@@ -14,4 +14,5 @@ $text = [
   "contact" => "Kontakt",
   "credits" => "Kredit",
   "notTranslated" => "Poznámka: Táto stránka nie je úplne preložená do Slovenského jazyka.",
+  "partnership" => "v partnerstve s ",
 ];

@@ -14,4 +14,5 @@ $text = [
   "contact" => "Contact",
   "credits" => "Credits",
   "notTranslated" => "Note: this page is not fully translated to English.",
+  "partnership" => "in partnership with ",
 ];
