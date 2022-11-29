@@ -96,7 +96,7 @@ function openCode(){
     return;
   }
 
-  code = localStorage.getItem(`project_${name}`);
+  let code = localStorage.getItem(`project_${name}`);
   editor.textContent = code;
   txtarea.value = code;
   
