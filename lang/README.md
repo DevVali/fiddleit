@@ -8,4 +8,4 @@ The guide for translating.
 3. **Don't** remove the double-quotes. Please type the translation into the double-quotes.
 3. Example of translation to Slovak language: `"title" => "online editor kódu",`
 
-[Full guide available here.](https://github.com/DevVali/fiddleit/blob/dd72a0df94e415a9426adc5082fad42ad7c5a608/README.md)
+[Full guide available here.](https://github.com/DevVali/fiddleit/blob/dd72a0df94e415a9426adc5082fad42ad7c5a608/README.md#translations)
