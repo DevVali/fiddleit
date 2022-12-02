@@ -14,22 +14,22 @@ if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
   $lang = to_string($_COOKIE["lang"]);
 }else{
   $lang = "en";
-  setcookie("lang", $lang, time() + (86400 * 30), "/", 1, 1);
+  setcookie("lang", $lang, time() + (86400 * 30), "/");
 }
 if(!empty($_GET["lang"]) && is_option($_GET["lang"], $langs)){
   $lang = to_string($_GET["lang"]);
-  setcookie("lang", $lang, time() + (86400 * 30), "/", 1, 1);
+  setcookie("lang", $lang, time() + (86400 * 30), "/");
 }
 
 if(!empty($_COOKIE["theme"]) && is_option($_COOKIE["theme"], $themes)){
   $theme = to_string($_COOKIE["theme"]);
 }else{
   $theme = "twilight";
-  setcookie("theme", $theme, time() + (86400 * 30), "/", 1, 1);
+  setcookie("theme", $theme, time() + (86400 * 30), "/");
 }
 if(!empty($_GET["theme"]) && is_option($_GET["theme"], $themes)){
   $theme = to_string($_GET["theme"]);
-  setcookie("theme", $theme, time() + (86400 * 30), "/", 1, 1);
+  setcookie("theme", $theme, time() + (86400 * 30), "/");
 }
 
 if(isset($_POST["code"])){
@@ -82,7 +82,7 @@ require "/home/runner/fiddleit/require/header.php";
 
 <?php if(isset($_SESSION["run"])){ ?>
   <a href="/run.php" target="_blank"><button class="button-primary" style="width:45%;float:right;"><i class="fa-solid fa-up-right-from-square"></i> <?php echo $text["newTabLabel"] ?></button></a>
-  <style>.preview{background-color:white;color:black;height:605px;}</style>
+  <style>.preview{background-color:white;color:black;height:600px;}</style>
 <?php } ?>
 <iframe src="/run.php" title="Code preview" class="preview"></iframe>
 

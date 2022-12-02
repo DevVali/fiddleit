@@ -8,7 +8,7 @@ if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
   $lang = to_string($_COOKIE["lang"]);
 }else{
   $lang = "en";
-  setcookie("lang", $lang, time() + (86400 * 30), "/", 1, 1);
+  setcookie("lang", $lang, time() + (86400 * 30), "/");
 }
 
 require "/home/runner/fiddleit/function/error.php";
@@ -25,6 +25,7 @@ require "/home/runner/fiddleit/require/toolbar.php";
 <ul>
   <li>To <a href="https://github.com/devvali">DevVali</a> for contributing to Frontend and Backend of fiddleit</li>
   <li>To <a href="https://github.com/tenmajkl">Majkel</a> for contributing to Backend of fiddleit</li>
+  <li>To <a href="https://github.com/avonryle">avonryle</a> for contributing to fiddleit wiki</li>
 </ul>
 
 <?php require "/home/runner/fiddleit/require/footer.php"; ?>
