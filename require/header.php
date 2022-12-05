@@ -17,7 +17,7 @@
   <meta property="og:site_name" content="© fiddleit">
   
   <meta property="og:title" content="Fiddleit: <?php echo $title ?>">
-  <meta property="og:description" content="Code, run, develop. All in one place, for free.">
+  <meta property="og:description" content="Develop, run and execute. All in one environment. Free.">
 
   <!-- FileSaver.js -->
   <script src="/src/FileSaver.js" defer></script>
