@@ -1,16 +1,17 @@
-# [FiddleIt](https://fiddleit.ejvali.eu)
-develop, run and execute. all in one environment. free.
+# [fiddleit](https://fiddleit.ejvali.eu)
+Develop, run and execute. All in one environment. Free.
 
 ## What's fiddleit?
 Fiddleit is an online text editor which aims to help developers to write code easily and execute it fast.
 
 ## Features and Toolkits
 Our editor provides multiple tools for you to use.
-You can change the theme of the editor easily aswell or maybe you want to change the language you're writing your code in?  We have it. All in one toolbar.
+Maybe you want to change the theme of the editor?  We have it. All in one toolbar.
 
 ![Our awesome toolbar!](https://user-images.githubusercontent.com/90271108/204579305-5c6fd684-4c9c-42d6-b4f8-fdc81c662706.png)
+
 ## Translations
-FiddleIt wouldn't be available in other languages without help of our translators. If you are interested in becoming one, [check out fiddleit wiki](https://github.com/DevVali/fiddleit/wiki/Translations).
+Fiddleit wouldn't be available in other languages without help of our translators. If you are interested in becoming one, [check out fiddleit wiki](https://github.com/DevVali/fiddleit/wiki/Translations).
 
 ## Contributing
 
