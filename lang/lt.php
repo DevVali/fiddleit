@@ -13,6 +13,6 @@ $text = [
   "privacy" => "Privatumas",
   "contact" => "Kontaktas",
   "credits" => "Kreditai",
-  "notTranslated" => "Patarimas: šis puslapis nėra visiškai išverstas į anglų kalbą.",
+  "notTranslated" => "Patarimas: šis puslapis nėra visiškai išverstas į lietuvių kalbą.", # Replace 'English' with the language you're writing the translation to
   "partnership" => "bendradarbiaujant su",
 ];
