@@ -22,4 +22,8 @@ $langs = [
   "code" => "el",
   ],
   
+  [
+  "language" => "Español",
+  "code" => "es",
+  ],
 ];
