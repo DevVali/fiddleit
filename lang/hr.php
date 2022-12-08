@@ -13,6 +13,6 @@ $text = [
   "privacy" => "Privatnost",
   "contact" => "Kontakt",
   "credits" => "Kredit",
-  "notTranslated" => "Napomena: Ova stranica nije potpuno prevedena na engleskom.", # Replace 'English' with the language you're writing the translation to
+  "notTranslated" => "Napomena: Ova stranica nije potpuno prevedena na hrvackom.", # Replace 'English' with the language you're writing the translation to
   "partnership" => "u partnerstvu sa",
 ];
