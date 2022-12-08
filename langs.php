@@ -13,8 +13,13 @@ $langs = [
   ],
 
   [
-  "language" => "Lithuanian",
+  "language" => "Lietuvių",
   "code" => "lt",
+  ],
+
+  [
+  "language" => "Ελληνικά",
+  "code" => "el",
   ],
   
 ];
