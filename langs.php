@@ -18,12 +18,12 @@ $langs = [
   ],
   
    [
-  "language" => "Croatian",
+  "language" => "Hrvatski",
   "code" => "hr",
   ],
   
    [
-  "language" => "Norwegian",
+  "language" => "Norsk",
   "code" => "no",
   ],
   
