@@ -25,7 +25,7 @@ require "/home/runner/fiddleit/require/toolbar.php";
 <ul>
   <li>To <a href="https://github.com/devvali">DevVali</a> for contributing to Frontend and Backend of fiddleit</li>
   <li>To <a href="https://github.com/tenmajkl">Majkel</a> for contributing to Backend of fiddleit</li>
-  <li>To <a href="https://github.com/avonryle">avonryle</a> for his contribution to fiddleit wiki</li>
+  <li>To <a href="https://github.com/avonryle">avonryle</a> for his contribution to the fiddleit wiki</li>
   <li>To <a href="https://github.com/ondra9071">Ondra907</a> for designing our logo</li>
 </ul>
 
