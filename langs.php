@@ -17,4 +17,14 @@ $langs = [
   "code" => "lt",
   ],
   
+   [
+  "language" => "Croatian",
+  "code" => "hr",
+  ],
+  
+   [
+  "language" => "Norwegian",
+  "code" => "no",
+  ],
+  
 ];
