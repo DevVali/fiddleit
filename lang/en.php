@@ -13,6 +13,6 @@ $text = [
   "privacy" => "Privacy",
   "contact" => "Contact",
   "credits" => "Credits",
-  "notTranslated" => "Note: this page is not fully translated to English.",
+  "notTranslated" => "Note: this page is not fully translated to English.", # Replace 'English' with language you're writing the translation to
   "partnership" => "in partnership with",
 ];
