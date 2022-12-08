@@ -11,5 +11,10 @@ $langs = [
   "language" => "Slovenčina",
   "code" => "sk",
   ],
+
+  [
+  "language" => "Lithuanian",
+  "code" => "lt",
+  ],
   
 ];
