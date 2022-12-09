@@ -59,7 +59,7 @@ require "/home/runner/fiddleit/require/header.php";
   <li class="toolbar-item"><a class="toolbar-item"><button class="button-primary" id="save"><i class="fa-solid fa-floppy-disk"></i> <?php echo $text["saveLabel"] ?></button></a></li>
   <li class="toolbar-item"><a class="toolbar-item"><button class="button-primary" id="download"><i class="fa-solid fa-cloud-arrow-down"></i> <?php echo $text["downloadLabel"] ?></button></a></li>
   <li class="toolbar-item"><a class="toolbar-item"><button class="button-primary" id="copy"><i class="fa-solid fa-copy"></i> <?php echo $text["copyLabel"] ?></button></a></li>
-  <li class="toolbar-item"><a class="toolbar-item"><select><option>PHP 8.1.7</option></select></a></li>
+  <li class="toolbar-item"><a class="toolbar-item"><select><option>PHP <?php echo phpversion() ?></option></select></a></li>
   <li class="toolbar-item"><a class="toolbar-item"><select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
     <?php foreach(  $themes as $option  ) : ?>
       <option value="/index.php?theme=<?php echo $option["theme"] ?>" <?php if($theme == $option["theme"]){echo "selected";} ?>><?php echo strtoupper($option["theme"]) ?></option>
