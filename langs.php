@@ -36,5 +36,10 @@ $langs = [
   "language" => "Español",
   "code" => "es",
   ],
+
+  [
+  "language" => "Vietnamese",
+  "code" => "vi",
+  ],
   
 ];
