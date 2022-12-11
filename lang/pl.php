@@ -12,7 +12,7 @@ $text = [
   "copyLabel" => "Skopiuj",
   "privacy" => "Prywatność",
   "contact" => "Kontakt",
-  "credits" => "Pomogli",
+  "credits" => "Kredyty",
   "notTranslated" => "Notka: Ta strona nie jest w pełni przetłumaczona na język Polski", # Replace 'English' with the language you're writing the translation to
   "partnership" => "Partnerstwa",
 ];
