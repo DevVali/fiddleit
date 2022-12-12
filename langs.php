@@ -38,7 +38,7 @@ $langs = [
   ],
 
   [
-  "language" => "Vietnamese",
+  "language" => "Tiếng Việt",
   "code" => "vi",
   ],
   
