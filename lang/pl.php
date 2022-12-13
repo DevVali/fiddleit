@@ -14,5 +14,5 @@ $text = [
   "contact" => "Kontakt",
   "credits" => "Kredyty",
   "notTranslated" => "Notka: Ta strona nie jest w pełni przetłumaczona na język Polski", # Replace 'English' with the language you're writing the translation to
-  "partnership" => "Partnerstwa",
+  "partnership" => "w partnerstwie z",
 ];
