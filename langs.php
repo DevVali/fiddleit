@@ -42,4 +42,14 @@ $langs = [
   "code" => "pl",
   ],
   
+  [
+  "language" => "Čeština",
+  "code" => "cs",
+  ],
+
+  [
+  "language" => "Nederlands",
+  "code" => "nl",
+  ],
+  
 ];

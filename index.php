@@ -3,7 +3,7 @@ session_start();
 $lang;
 $theme;
 $code;
-$default = "<?php\necho phpversion();";
+$default = "<html>\n<head>\n<title>Document</title>\n</head>\n<body>\n<p><?php echo 'Hello world'; ?></p>\n\n<!--\nWelcome to fiddleit, free & online PHP code editor.\nClick the 'Run' button to preview this code.\n-->\n</body>\n</html>";
 
 require "/home/runner/fiddleit/function/additionals.php";
 require "/home/runner/fiddleit/function/main.php";

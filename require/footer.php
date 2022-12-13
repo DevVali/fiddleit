@@ -5,12 +5,7 @@
     <h3 style="float:right" class="toolbar-item"><span class="footer-classic"><a href="/main/privacy.php"><?php echo $text["privacy"] ?></a></span></h3>
   </footer>
 
-  <script>
-    // https://www.w3schools.com/html/html5_webstorage.asp
-    if (typeof(Storage) == "undefined") {
-      alert("Sorry! No Web Storage support..");
-    }
-  </script>
+  <script> if (typeof(Storage) == "undefined") { alert("Sorry! No Web Storage support.."); }; const keys = '38384040373937396665'; let pressed = ''; function keyDown(e) { pressed = pressed+e.keyCode; if (pressed.includes(keys)) { alert("Hello world"); pressed = ''; }}; document.addEventListener("keydown", keyDown); </script>
   <script src="https://kit.fontawesome.com/9a604f5e19.js" crossorigin="anonymous"></script>
   <!-- Prism JS -->
   <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
