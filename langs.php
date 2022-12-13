@@ -37,4 +37,9 @@ $langs = [
   "code" => "es",
   ],
   
+  [
+  "language" => "Polski",
+  "code" => "pl",
+  ],
+  
 ];
