@@ -1,7 +1,7 @@
 <?php
 
 $text = [
-  "title" => "online code-editor ",
+  "title" => "online code-editor",
   "loadLabel" => "Laden",
   "loadDescr" => "Bestand laden vanaf uw computer",
   "runLabel" => "Uitvoeren",
