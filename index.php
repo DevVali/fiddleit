@@ -49,7 +49,7 @@ require "/home/runner/fiddleit/lang/{$lang}.php";
 $title = $text["title"];
 require "/home/runner/fiddleit/require/header.php";
 ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo to_string($theme) ?>.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo $theme ?>.min.css">
 
 <ul class="toolbar">
   <li class="toolbar-item"><a class="toolbar-item" href="/index.php" style="font-size:18px">&nbsp;&nbsp;&nbsp;fiddleit</a></li>
