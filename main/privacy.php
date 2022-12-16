@@ -20,6 +20,7 @@ require "/home/runner/fiddleit/require/toolbar.php";
 ?>
 
 <h1><?php echo $text["privacy"] ?></h1>
+<a href="https://www.gluo.xyz"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1053339769351983184/advertisement.png" alt="Advertisement" class="advertisement"></a>
 <p><?php if($lang != "en"){echo $text["notTranslated"];} ?></p>
 
 <p>By using our application(s) and its services, you agree to the following Privacy policy.</p>

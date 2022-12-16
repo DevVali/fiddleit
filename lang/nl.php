@@ -15,4 +15,5 @@ $text = [
   "credits" => "Credits ",
   "notTranslated" => "Let op: deze pagina is niet volledig vertaald naar het Nederlands." , # Replace 'English' with the language you're writing the translation to
   "partnership" => "in samenwerking met",
+  "partners" => "Partners",
 ];

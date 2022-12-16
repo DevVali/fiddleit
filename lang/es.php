@@ -15,4 +15,5 @@ $text = [
   "credits" => "Creditos",
   "notTranslated" => "Aviso: Esta página no esta completamente translada a Español", # Replace 'English' with the language you're writing the translation to
   "partnership" => "En asociación con",
+  "partners" => "Partners",
 ];
