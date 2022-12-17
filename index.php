@@ -81,7 +81,7 @@ require "/home/runner/fiddleit/require/header.php";
 <pre><code class="language-php line-numbers" id="editor" style="outline:none" spellcheck="false" contenteditable><?php echo to_string($code) ?> </code></pre>
 
 <?php if(isset($_SESSION["run"])){ ?>
-  <a href="/run.php" target="_blank"><button class="button-primary" style="width:45%;float:right;"><i class="fa-solid fa-up-right-from-square"></i> <?php echo $text["newTabLabel"] ?></button></a>
+  <a href="/run.php" target="_blank"><button class="button-primary" style="width:45%;float:right"><i class="fa-solid fa-up-right-from-square"></i> <?php echo $text["newTabLabel"] ?></button></a>
   <style>.preview{background-color:white;color:black;height:600px;}</style>
 <?php } ?>
 <iframe src="/run.php" title="Code preview" class="preview"></iframe>
