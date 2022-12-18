@@ -13,7 +13,7 @@ $text = [
   "privacy" => "Quyền riêng tư",
   "contact" => "Liên hệ",
   "credits" => "Người tạo ra",
-  "notTranslated" => "Lưu ý: trang này không được dịch hoàn toàn sang Tiếng Việt.", # Thay thế 'Tiếng Việt' với ngôn ngữ bạn đang muốn dịch sang
+  "notTranslated" => "Lưu ý: trang này không được dịch hoàn toàn sang Tiếng Việt.", # Replace 'English' with the language you're writing the translation to
   "partnership" => "hợp tác với",
-  "partners" => "Partners",
+  "partners" => "Đối tác",
 ];

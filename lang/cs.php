@@ -15,5 +15,5 @@ $text = [
   "credits" => "Poděkování",
   "notTranslated" => "Poznámka: Tato stránka není zcela přeložena do češtiny.", # Replace 'English' with the language you're writing the translation to
   "partnership" => "ve spolupráci s",
-  "partners" => "Partners",
+  "partners" => "Partneři",
 ];
