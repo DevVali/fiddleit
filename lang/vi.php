@@ -15,4 +15,5 @@ $text = [
   "credits" => "Người tạo ra",
   "notTranslated" => "Lưu ý: trang này không được dịch hoàn toàn sang Tiếng Việt.", # Thay thế 'Tiếng Việt' với ngôn ngữ bạn đang muốn dịch sang
   "partnership" => "hợp tác với",
+  "partners" => "Partners",
 ];
