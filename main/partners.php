@@ -14,21 +14,18 @@ if(!empty($_COOKIE["lang"]) && is_option($_COOKIE["lang"], $langs)){
 require "/home/runner/fiddleit/function/error.php";
 require "/home/runner/fiddleit/lang/{$lang}.php";
 
-$title = $text["credits"];
+$title = $text["partners"];
 require "/home/runner/fiddleit/require/header.php";
 require "/home/runner/fiddleit/require/toolbar.php";
 ?>
 
-<h1><?php echo $text["credits"] ?></h1>
+<h1><?php echo $text["partners"] ?></h1>
 <a href="https://www.gluo.xyz"><img src="https://cdn.discordapp.com/attachments/889423777123938315/1053339769351983184/advertisement.png" alt="Advertisement" class="advertisement"></a>
 <p><?php if($lang != "en"){echo $text["notTranslated"];} ?></p>
 
-<ul>
-  <li>To <a href="https://github.com/devvali">DevVali</a> for contributing to Frontend and Backend of fiddleit</li>
-  <li>To <a href="https://github.com/tenmajkl">Majkel</a> for contributing to Backend of fiddleit</li>
-  <li>To <a href="https://github.com/avonryle">avonryle</a> for his contribution to the fiddleit wiki</li>
-  <li>To <a href="https://github.com/ondra9071">Ondra907</a> for designing our logo</li>
-  <li>To Jurogas3 for security checks</li>
-</ul>
+<p>Fiddleit's partners who helps us continue running.</p>
+
+<h2>You can have your own name here!</h2>
+<p>And your description! Become our first partner.</p>
 
 <?php require "/home/runner/fiddleit/require/footer.php"; ?>

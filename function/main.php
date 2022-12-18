@@ -8,7 +8,7 @@ function to_string($data) {
 }
 
 function is_option($source, $array) {
-  $needle = ['$', 'langs', '=', '[', '=>', ']', ';', ',', 'language', 'code', '"', 'Array', '(', ')', '>', '<', '0', '1', ];
+  $needle = ['$', 'langs', 'themes', '=', '[', '=>', ']', ';', ',', 'language', 'code', 'theme', '"', 'Array', '(', ')', '>', '<', ];
   $haystack = print_r($array, true);
   
   $data = str_replace($needle, "", $haystack);

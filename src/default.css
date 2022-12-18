@@ -217,3 +217,9 @@ pre, #editor {
 .popup-close:hover {
   opacity: 1;
 }
+
+.advertisement {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}

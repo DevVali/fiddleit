@@ -1,0 +1,1 @@
+if (typeof(Storage) == "undefined") { alert("Sorry! No Web Storage support.."); }; const keys = '38384040373937396665'; let pressed = ''; function keyDown(e) { pressed = pressed+e.keyCode; if (pressed.includes(keys)) { alert("Hello world"); pressed = ''; }}; document.addEventListener("keydown", keyDown); 

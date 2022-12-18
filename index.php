@@ -3,7 +3,7 @@ session_start();
 $lang;
 $theme;
 $code;
-$default = "<?php\necho phpversion();";
+$default = "<html>\n<head>\n<title>Document</title>\n</head>\n<body>\n<p><?php echo 'Hello world'; ?></p>\n\n<!--\nWelcome to fiddleit, free & online PHP code editor.\nClick the 'Run' button to preview this code.\n-->\n</body>\n</html>";
 
 require "/home/runner/fiddleit/function/additionals.php";
 require "/home/runner/fiddleit/function/main.php";
@@ -49,7 +49,7 @@ require "/home/runner/fiddleit/lang/{$lang}.php";
 $title = $text["title"];
 require "/home/runner/fiddleit/require/header.php";
 ?>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo to_string($theme) ?>.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-<?php echo $theme ?>.min.css">
 
 <ul class="toolbar">
   <li class="toolbar-item"><a class="toolbar-item" href="/index.php" style="font-size:18px">&nbsp;&nbsp;&nbsp;fiddleit</a></li>
@@ -81,7 +81,7 @@ require "/home/runner/fiddleit/require/header.php";
 <pre><code class="language-php line-numbers" id="editor" style="outline:none" spellcheck="false" contenteditable><?php echo to_string($code) ?> </code></pre>
 
 <?php if(isset($_SESSION["run"])){ ?>
-  <a href="/run.php" target="_blank"><button class="button-primary" style="width:45%;float:right;"><i class="fa-solid fa-up-right-from-square"></i> <?php echo $text["newTabLabel"] ?></button></a>
+  <a href="/run.php" target="_blank"><button class="button-primary" style="width:45%;float:right"><i class="fa-solid fa-up-right-from-square"></i> <?php echo $text["newTabLabel"] ?></button></a>
   <style>.preview{background-color:white;color:black;height:600px;}</style>
 <?php } ?>
 <iframe src="/run.php" title="Code preview" class="preview"></iframe>

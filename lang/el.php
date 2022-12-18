@@ -15,4 +15,5 @@ $text = [
   "credits" => "Credits",
   "notTranslated" => "Σημείωση: αυτή η σελίδα δεν είναι πλήρης μεταφρασμένη στα Ελληνικά.", # Replace 'English' with the language you're writing the translation to
   "partnership" => "σε συνεργασία με",
+  "partners" => "Partners",
 ];

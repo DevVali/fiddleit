@@ -30,4 +30,4 @@
 </head>
 
 <body>
-  <noscript>Javascript is required and some functions may not work.</noscript>
+  <noscript>Enable JavaScript and cookies to continue</noscript>
