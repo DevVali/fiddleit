@@ -1,5 +1,5 @@
   <footer>
-    <h3 class="toolbar-item">&nbsp;&nbsp;&nbsp;<span class="footer-classic">© <?php echo date("Y") ?></span> fiddleit</h3>
+    <h3 class="toolbar-item">&nbsp;&nbsp;&nbsp;<span class="footer-classic">© <?php echo date("Y") ?></span> fiddleit <span class="footer-classic"><?php echo $text["partnership"] ?> <a href="https://www.gluo.xyz">Gluo</a></span></h3>
     <h3 style="float:right" class="toolbar-item"><span class="footer-classic"><a href="/main/partners.php"><?php echo $text["partners"] ?></a></span></h3>
     <h3 style="float:right" class="toolbar-item"><span class="footer-classic"><a href="/main/credits.php"><?php echo $text["credits"] ?></a></span></h3>
     <h3 style="float:right" class="toolbar-item"><span class="footer-classic"><a href="/main/contact.php"><?php echo $text["contact"] ?></a></span></h3>

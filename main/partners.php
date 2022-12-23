@@ -25,7 +25,18 @@ require "/home/runner/fiddleit/require/toolbar.php";
 
 <p>Fiddleit's partners who helps us continue running.</p>
 
-<h2>You can have your own name here!</h2>
-<p>And your description! Become our first partner.</p>
+<h2>Gluo.xyz x Fiddleit</h2>
+<p>
+
+<b>Gluo.xyz</b> is the social media platform of the future.<br>
+We don't need nor use your private data to make it awesome.<br><br>
+
+We value your privacy more than others by only showing and storing the necessary information.<br>
+We also strive to be easy on the eye, making it straightforward for our users to navigate and get used to Gluo.<br><br>
+
+We hope you'll consider making an account and join us on our, mysterious and unique journey.<br>
+<b> <a href="https://discord.gg/jAhwnYNTw8?event=1005499250479743117" >Join Gluo on Discord</a></b> <b><a href="https://gluo.xyz/" > Gluo's Website</a></b> 
+
+</p>
 
 <?php require "/home/runner/fiddleit/require/footer.php"; ?>
