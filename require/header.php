@@ -24,7 +24,7 @@
   <!-- Prism -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
   
-  <link rel="icon" href="/src/icon_xmas.ico">
+  <link rel="icon" href="/src/icon.ico">
   <link rel="stylesheet" href="/src/default.css">
 
 </head>
