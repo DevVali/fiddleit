@@ -1,4 +1,4 @@
-# [fiddleit](https://fiddleit.ejvali.eu)
+# [fiddleit](https://fiddleit.devvali.repl.co/)
 Develop, run and execute. All in one environment. Free.
 
 ## What's fiddleit?
