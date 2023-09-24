@@ -30,4 +30,4 @@ If you want to contribute to this project you can get in touch with us below.
 
 ## Copyright
 
-© 2022 fiddleit
+© 2023 fiddleit
